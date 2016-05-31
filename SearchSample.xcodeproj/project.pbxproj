@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA57ED511CFD60DF00A8083A /* NSObject+UIAppearanceSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57ED501CFD60DF00A8083A /* NSObject+UIAppearanceSwift.m */; };
 		DA92DBFB1CF4333A004D1A1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DBFA1CF4333A004D1A1B /* AppDelegate.swift */; };
-		DA92DBFD1CF4333A004D1A1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DBFC1CF4333A004D1A1B /* ViewController.swift */; };
 		DA92DC001CF4333A004D1A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA92DBFE1CF4333A004D1A1B /* Main.storyboard */; };
 		DA92DC021CF4333A004D1A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA92DC011CF4333A004D1A1B /* Assets.xcassets */; };
 		DA92DC051CF4333A004D1A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA92DC031CF4333A004D1A1B /* LaunchScreen.storyboard */; };
 		DA92DC101CF4333A004D1A1B /* SearchSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DC0F1CF4333A004D1A1B /* SearchSampleTests.swift */; };
 		DA92DC1B1CF4333A004D1A1B /* SearchSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DC1A1CF4333A004D1A1B /* SearchSampleUITests.swift */; };
+		DA92DC2B1CF434A7004D1A1B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DC2A1CF434A7004D1A1B /* TableViewController.swift */; };
+		DA92DC2D1CF43759004D1A1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DC2C1CF43759004D1A1B /* DetailViewController.swift */; };
+		DA92DC2F1CF459CB004D1A1B /* Detail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DC2E1CF459CB004D1A1B /* Detail2ViewController.swift */; };
+		DA92DC311CF4613A004D1A1B /* Detail3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA92DC301CF4613A004D1A1B /* Detail3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA57ED451CFD5E6400A8083A /* SearchSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		DA57ED4F1CFD60DF00A8083A /* NSObject+UIAppearanceSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIAppearanceSwift.h"; sourceTree = "<group>"; };
+		DA57ED501CFD60DF00A8083A /* NSObject+UIAppearanceSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIAppearanceSwift.m"; sourceTree = "<group>"; };
 		DA92DBF71CF4333A004D1A1B /* SearchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA92DBFA1CF4333A004D1A1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA92DBFC1CF4333A004D1A1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA92DBFF1CF4333A004D1A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA92DC011CF4333A004D1A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA92DC041CF4333A004D1A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		DA92DC161CF4333A004D1A1B /* SearchSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA92DC1A1CF4333A004D1A1B /* SearchSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSampleUITests.swift; sourceTree = "<group>"; };
 		DA92DC1C1CF4333A004D1A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA92DC2A1CF434A7004D1A1B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DA92DC2C1CF43759004D1A1B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DA92DC2E1CF459CB004D1A1B /* Detail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail2ViewController.swift; sourceTree = "<group>"; };
+		DA92DC301CF4613A004D1A1B /* Detail3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,17 @@
 			isa = PBXGroup;
 			children = (
 				DA92DBFA1CF4333A004D1A1B /* AppDelegate.swift */,
-				DA92DBFC1CF4333A004D1A1B /* ViewController.swift */,
+				DA92DC2A1CF434A7004D1A1B /* TableViewController.swift */,
 				DA92DBFE1CF4333A004D1A1B /* Main.storyboard */,
+				DA92DC2C1CF43759004D1A1B /* DetailViewController.swift */,
+				DA92DC2E1CF459CB004D1A1B /* Detail2ViewController.swift */,
+				DA92DC301CF4613A004D1A1B /* Detail3ViewController.swift */,
+				DA57ED4F1CFD60DF00A8083A /* NSObject+UIAppearanceSwift.h */,
+				DA57ED501CFD60DF00A8083A /* NSObject+UIAppearanceSwift.m */,
 				DA92DC011CF4333A004D1A1B /* Assets.xcassets */,
 				DA92DC031CF4333A004D1A1B /* LaunchScreen.storyboard */,
 				DA92DC061CF4333A004D1A1B /* Info.plist */,
+				DA57ED451CFD5E6400A8083A /* SearchSample-Bridging-Header.h */,
 			);
 			path = SearchSample;
 			sourceTree = "<group>";
@@ -256,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA92DBFD1CF4333A004D1A1B /* ViewController.swift in Sources */,
+				DA92DC311CF4613A004D1A1B /* Detail3ViewController.swift in Sources */,
+				DA92DC2D1CF43759004D1A1B /* DetailViewController.swift in Sources */,
+				DA92DC2B1CF434A7004D1A1B /* TableViewController.swift in Sources */,
+				DA92DC2F1CF459CB004D1A1B /* Detail2ViewController.swift in Sources */,
 				DA92DBFB1CF4333A004D1A1B /* AppDelegate.swift in Sources */,
+				DA57ED511CFD60DF00A8083A /* NSObject+UIAppearanceSwift.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +419,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SearchSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.SearchSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SearchSample/SearchSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SearchSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.cover.SearchSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SearchSample/SearchSample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +509,7 @@
 				DA92DC211CF4333A004D1A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA92DC221CF4333A004D1A1B /* Build configuration list for PBXNativeTarget "SearchSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +518,7 @@
 				DA92DC241CF4333A004D1A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA92DC251CF4333A004D1A1B /* Build configuration list for PBXNativeTarget "SearchSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +527,7 @@
 				DA92DC271CF4333A004D1A1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
